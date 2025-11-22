@@ -17,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/kimono-connect-gb">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/partner" element={<PartnerLogin />} />
